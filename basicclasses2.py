@@ -1,9 +1,9 @@
 class Vehicle():
     def __init__(self, cost, colour, mark):
-
         self.cost = cost
         self.colour = colour
         self.mark = mark
+        
     def __str__(self):
         return f'Your choice is {self.mark} and the colour is {self.colour}\nIt cost {self.cost} '
 
