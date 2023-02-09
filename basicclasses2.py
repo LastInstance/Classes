@@ -68,15 +68,5 @@ class Boat(Vehicle):
         return f'Mark of this boat is {self.mark}'
 
 
-m = Moto(1000, "red", "bmv")
-print(str(m))
-m.speed(200)
-a = Auto(15000, "blue", "Volvo")
-print(str(a))
-a.type("hetchback")
-a.seats(4)
-b = Boat(30000, "white", "bavaria")
-print(str(b))
-b.type("motor boat")
-b.speed(70)
+
 
