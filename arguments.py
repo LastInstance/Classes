@@ -1,5 +1,4 @@
 def avg(*args):
-    
-'''Adding multiple arguments and finding their average"
-
-    return sum(args) / len(args)
+    '''The formula for calculating average'''
+    average = sum(args) / len(args)
+    return average
